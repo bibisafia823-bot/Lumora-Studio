@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio | Lumora Studio">
+    <title>Portfolio | Lumora Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="Lumora Studio home">LUM<span>ORA</span></a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="book.html" class="nav-cta">Book a Session</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+    <header class="page-hero"><div class="container"><h1>Our <span class="accent">Portfolio</span></h1><p>Browse our work by category.</p></div></header>
+
+    <section class="section"><div class="container">
+        <div class="toolbar">
+            <button class="chip active" data-filter="all" type="button">All</button>
+            <button class="chip" data-filter="bridal" type="button">Bridal</button>
+            <button class="chip" data-filter="couples" type="button">Couples</button>
+            <button class="chip" data-filter="portraits" type="button">Portraits</button>
+            <button class="chip" data-filter="events" type="button">Events</button>
+        </div>
+        <div class="pgrid">
+            <div class="g-item tall" data-cat="bridal"><img src="images/bridal-mirror.jpg" alt="Bridal portrait in a golden mirror" style="object-position:center 30%" loading="lazy"><span>Bridal portrait in a golden mirror</span></div>
+            <div class="g-item wide" data-cat="couples"><img src="images/couple-living-room.jpg" alt="Couple portrait in a heritage-style room" style="object-position:center 55%" loading="lazy"><span>Couple portrait in a heritage-style room</span></div>
+            <div class="g-item tall" data-cat="portraits"><img src="images/portrait-green.jpg" alt="Lime green anarkali on marble steps" style="object-position:center 40%" loading="lazy"><span>Lime green anarkali on marble steps</span></div>
+            <div class="g-item" data-cat="events"><img src="images/bridesmaids-garden.jpg" alt="Bridesmaids react in the garden" style="object-position:center 55%" loading="lazy"><span>Bridesmaids react in the garden</span></div>
+            <div class="g-item tall" data-cat="couples"><img src="images/couple-brick.jpg" alt="Couple by the red-brick pillars" style="object-position:center" loading="lazy"><span>Couple by the red-brick pillars</span></div>
+            <div class="g-item" data-cat="portraits"><img src="images/portrait-pink.jpg" alt="Soft pink floral portrait" style="object-position:center 40%" loading="lazy"><span>Soft pink floral portrait</span></div>
+            <div class="g-item" data-cat="events"><img src="images/nikkah.jpg" alt="Nikkah signing details" style="object-position:center" loading="lazy"><span>Nikkah signing details</span></div>
+            <div class="g-item" data-cat="bridal"><img src="images/bride-moody.jpg" alt="Moody bridal portrait with velvet drapes" style="object-position:center 65%" loading="lazy"><span>Moody bridal portrait with velvet drapes</span></div>
+            <div class="g-item tall" data-cat="portraits"><img src="images/portrait-rust.jpg" alt="Rust anarkali twirl in the arcade" style="object-position:center 35%" loading="lazy"><span>Rust anarkali twirl in the arcade</span></div>
+            <div class="g-item wide" data-cat="events"><img src="images/bridesmaids-steps.jpg" alt="The bride and her girls on the steps" style="object-position:center 50%" loading="lazy"><span>The bride and her girls on the steps</span></div>
+        </div>
+    </div></section>
+    <section class="section cta-band"><div class="container">
+        <h2>Like what you <span class="accent">see</span>?</h2>
+        <p>Book your own session today.</p>
+        <a class="btn btn-primary" href="book.html">Book a Session</a>
+    </div></section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div><a href="index.html" class="logo">LUM<span>ORA</span></a><p style="margin-top:.8rem;max-width:320px">Bridal, couple and portrait photography that turns real moments into timeless memories.</p></div>
+            <div><h4>Pages</h4><ul>
+                <li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li><li><a href="book.html">Book a Session</a></li></ul></div>
+            <div><h4>Visit us</h4><ul>
+                <li>Based in Pakistan</li>
+                <li>Mon to Sat, 10 AM to 7 PM</li>
+                <li>Online booking, 24/7</li></ul></div>
+        </div>
+        <div class="container footer-bottom"><p>&copy; 2026 Lumora Studio. All rights reserved.</p></div>
+    </footer>
+    <script src="js/common.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
